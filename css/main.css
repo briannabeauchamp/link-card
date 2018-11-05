@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f0eee8;
+  border-color: #9a816d;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 3px;
+  color: #512200;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Dosis", sans-serif;
+  background-color: #dcd4cd;
+}
+
+.link-card {
+  background-color: #dcd4cd;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 8px;
+  border-width: 3px;
+  border-style: none;
+  background-color: #785439;
+  text-align: center;
+}
