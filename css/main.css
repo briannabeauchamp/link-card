@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -14,11 +15,14 @@ body {
   border-radius: 3px;
   color: #512200;
   line-height: 1.5;
+  padding: 1rem;
 }
 
 h2 {
   font-family: "Dosis", sans-serif;
   background-color: #dcd4cd;
+  font-weight: bold, 400;
+  margin: 0;
 }
 
 .link-card {
@@ -26,10 +30,35 @@ h2 {
 }
 
 .btn {
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
   display: inline-block;
   border-radius: 8px;
   border-width: 3px;
   border-style: none;
   background-color: #785439;
   text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding: .4em .75em .5em;
+}
+
+.btn-wrap {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+p, .list{
+  border-bottom: 2px solid #9a816d;
+}
+
+dt, dd {
+  margin: 0;
+  display: inline-block;
+  width: 45%;
+}
+
+dd {
+  font-style: italic;
 }
