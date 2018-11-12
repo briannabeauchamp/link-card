@@ -9,25 +9,25 @@ html {
 
 body {
   background-color: #f0eee8;
-  border-color: #9a816d;
-  border-width: 3px;
-  border-style: solid;
-  border-radius: 3px;
-  color: #512200;
   line-height: 1.5;
-  padding: 1rem;
 }
 
 h2 {
   font-family: "Dosis", sans-serif;
-  background-color: #dcd4cd;
   font-weight: bold, 400;
   margin: 0;
 }
 
 .link-card {
   background-color: #dcd4cd;
+  border-color: #9a816d;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 3px;
+  color: #512200;
+  padding: 1rem;
 }
+
 
 .btn {
   font-family: "Dosis", sans-serif;
@@ -41,6 +41,14 @@ h2 {
   color: #fff;
   text-decoration: none;
   padding: .4em .75em .5em;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card:hover a {
+  background-color: #512200;
 }
 
 .btn-wrap {
